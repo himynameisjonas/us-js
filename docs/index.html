@@ -4,9 +4,13 @@
     <title>US.js - Keep posted! 🇺🇸</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="favicon.png">
     <style>
+      body {
+        background-color: #00395E;
+        font-family:roboto;
+      }
       .newsletter {
-        background-color: $black;
         color:#fff;
         padding:80px 20px;
         text-align: center;
@@ -20,8 +24,8 @@
         font-weight: 400;
         font-style: italic;
         color:#fff;
-        font-size: 40px;
-        font-size: 4rem;
+        font-size: 23px;
+        font-size: 2.3rem;
         margin:0;
       }
       .newsletter-description {
@@ -47,14 +51,14 @@
         position: relative;
         z-index: 1;
         box-sizing: border-box;
-        &:focus {
-          outline:none;
-        }
+      }
+      .newsletter-email {
+        outline:none;
       }
       .newsletter-submit {
         transition: all .2s ease-in-out;
         font-size:16px;
-        background-color: #65c364;
+        background-color: #b53036;
         border: none;
         height: 50px;
         line-height: 50px;
@@ -81,12 +85,7 @@
   <body>
     <div class="newsletter">
       <div class="newsletter-content">
-        <h2 class="newsletter-title"><a id="newsletter"></a>Let's keep in touch!</h2>
-        <p class="newsletter-description">
-          Join my personal email list and receive an email
-          next time I have something useful to share. Very occationally and no spam, I promise!
-        </p>
-
+        <h2 class="newsletter-title"><a id="newsletter"></a>Get notified when US.js is released!</h2>
         <form action="//javve.us14.list-manage.com/subscribe/post?u=5c29f409148ab64294c50afb1&amp;id=6d405cc6ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate>
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c29f409148ab64294c50afb1_6d405cc6ff" tabindex="-1" value=""></div>
           <input type="email" value="" placeholder="E-mail address" name="EMAIL" class="newsletter-email" id="mce-EMAIL">
