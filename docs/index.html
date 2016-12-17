@@ -1,1 +1,98 @@
-HEJ!
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>US.js - Keep posted! 🇺🇸</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <style>
+      .newsletter {
+        background-color: $black;
+        color:#fff;
+        padding:80px 20px;
+        text-align: center;
+      }
+      .newsletter-content {
+        max-width: 600px;
+        margin:0 auto;
+      }
+      .newsletter-title {
+        font-family: playfair display;
+        font-weight: 400;
+        font-style: italic;
+        color:#fff;
+        font-size: 40px;
+        font-size: 4rem;
+        margin:0;
+      }
+      .newsletter-description {
+        font-size:16px;
+        opacity: 0.5;
+      }
+      .newsletter-form {
+        position: relative;
+        position: relative;
+        display: inline-block;
+        max-width: 400px;
+        width: 100%;
+        box-shadow: 10px 10px 50px rgba(0,0,0,.5);
+      }
+      .newsletter-email {
+        font-size:16px;
+        background: #fff;
+        border: none;
+        padding: 0 15px;
+        height:50px;
+        line-height: 50px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+        &:focus {
+          outline:none;
+        }
+      }
+      .newsletter-submit {
+        transition: all .2s ease-in-out;
+        font-size:16px;
+        background-color: #65c364;
+        border: none;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        color: #fff;
+        font-weight: 600;
+        width:100%;
+      }
+      @media (min-width: 900px) {
+        .newsletter-submit {
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 2;
+          width: auto;
+        }
+        .newsletter-submit:hover {
+          box-shadow: 0 4px 40px rgba(0,0,0,.5);
+          transform: scale(1.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="newsletter">
+      <div class="newsletter-content">
+        <h2 class="newsletter-title"><a id="newsletter"></a>Let's keep in touch!</h2>
+        <p class="newsletter-description">
+          Join my personal email list and receive an email
+          next time I have something useful to share. Very occationally and no spam, I promise!
+        </p>
+
+        <form action="//javve.us14.list-manage.com/subscribe/post?u=5c29f409148ab64294c50afb1&amp;id=6d405cc6ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c29f409148ab64294c50afb1_6d405cc6ff" tabindex="-1" value=""></div>
+          <input type="email" value="" placeholder="E-mail address" name="EMAIL" class="newsletter-email" id="mce-EMAIL">
+          <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="newsletter-submit">Go!&nbsp; 🎉</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
