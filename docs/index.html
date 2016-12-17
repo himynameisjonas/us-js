@@ -2,32 +2,49 @@
 <html>
   <head>
     <title>US.js - Keep posted! 🇺🇸</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.png">
     <style>
       body {
         background-color: #00395E;
-        font-family:roboto;
+        font-family:source sans pro;
       }
       .newsletter {
-        color:#fff;
-        padding:80px 20px;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        display: flex;
+        padding: 0 20px;
+        box-sizing: border-box;
       }
       .newsletter-content {
         max-width: 600px;
         margin:0 auto;
       }
       .newsletter-title {
-        font-family: playfair display;
-        font-weight: 400;
-        font-style: italic;
-        color:#fff;
+        font-weight: 700;
+        color: #fff;
         font-size: 23px;
         font-size: 2.3rem;
-        margin:0;
+        margin: 0;
         margin-bottom: 30px;
+        display: inline-block;
+        line-height: 1.1;
+      }
+      .newsletter-title:after {
+        display: block;
+        height: 6px;
+        background-color: #B53037;
+        content: " ";
+        border-radius: 3px;
+        margin-top:9px;
       }
       .newsletter-description {
         font-size:16px;
@@ -37,9 +54,7 @@
         position: relative;
         position: relative;
         display: inline-block;
-        max-width: 400px;
         width: 100%;
-        box-shadow: 10px 10px 50px rgba(0,0,0,.5);
       }
       .newsletter-email {
         font-size:16px;
@@ -90,7 +105,7 @@
         <form action="//javve.us14.list-manage.com/subscribe/post?u=5c29f409148ab64294c50afb1&amp;id=6d405cc6ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate>
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c29f409148ab64294c50afb1_6d405cc6ff" tabindex="-1" value=""></div>
           <input type="email" value="" placeholder="E-mail address" name="EMAIL" class="newsletter-email" id="mce-EMAIL">
-          <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="newsletter-submit">Go!&nbsp; 🇺🇸</button>
+          <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="newsletter-submit">Go!</button>
         </form>
       </div>
     </div>
