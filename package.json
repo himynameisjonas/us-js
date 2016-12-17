@@ -1,0 +1,29 @@
+{
+  "name": "us-js",
+  "version": "0.0.1",
+  "description": "WIP",
+  "main": "index.js",
+  "author": {
+    "name": "Jonny Strömberg",
+    "email": "jonny.stromberg@gmail.com>",
+    "url": "http://javve.com"
+  },
+  "homepage": "http://javve.com/us-js",
+  "repository": "git://github.com/javve/us-js.git",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javve/us-js/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "npmName": "us-js",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
+}
