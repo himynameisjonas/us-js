@@ -1,1 +1,1 @@
-console.log('MAKE AMERIGA GREAT AGAIN!');
+console.log('MAKE AMERICA GREAT AGAIN!');
